@@ -1,0 +1,13 @@
+.mapEmbed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    background-color: var(--bg-color);
+}
+
+.mapEmbed h2 {
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    padding: 2rem 0 2rem 0;
+}
