@@ -51,7 +51,7 @@ const Footer = () => {
       </footer>
 
       <div className="footerBottomLine">
-        Copyright © - {new Date().getFullYear()} Yash Villa, All Rights Reserved | Designed And Developed By Asif Khan.
+        Copyright © - {new Date().getFullYear()} Yash Villa, All Rights Reserved | Designed And Developed By <a href="mailto:webdev.asifkhan@gmail.com" target="_blank" className="footerBottomLine_developerName">Asif Khan</a>
       </div>
     </>
   )
