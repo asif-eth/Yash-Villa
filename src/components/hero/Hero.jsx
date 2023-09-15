@@ -22,8 +22,7 @@ const Hero = () => {
         </div>
 
         <video className="bgVideo" autoPlay loop muted playsInline preload='auto'>
-          <source src="/bgVideo.mp4" />
-          <source src="/yashVillah264.mp4" type="video/mp4" />
+          <source src="/yashVillaEnhanced.mp4" type="video/mp4" />
         </video>
 
       </main>
