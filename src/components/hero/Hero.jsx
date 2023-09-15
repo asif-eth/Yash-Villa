@@ -22,9 +22,9 @@ const Hero = () => {
         </div>
 
         <video className="bgVideo" autoPlay loop muted playsInline preload='auto'>
-          <source src="/yashVilla.mp4" type="video/mp4" />
+          {/* <source src="/yashVilla.mp4" type="video/mp4" /> */}
           <source src="/yashVillah264.mp4" type="video/mp4" />
-          <source src="/yashVillawebm.webm" type="video/webm" />
+          {/* <source src="/yashVillawebm.webm" type="video/webm" /> */}
           Your browser does not support the video tag.
         </video>
 
