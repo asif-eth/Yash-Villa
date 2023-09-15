@@ -18,7 +18,6 @@ const Hero = () => {
         </div>
         <div className="header">
           <h1>Yash Villa</h1>
-          {/* <p>Unlock Your Brand's Radiance</p> */}
         </div>
 
         <video className="bgVideo" autoPlay loop muted playsInline preload='auto'>
