@@ -20,7 +20,7 @@ const Hero = () => {
           <h1>Yash Villa</h1>
           {/* <p>Unlock Your Brand's Radiance</p> */}
         </div>
-        <video className='bgVideo' src={yashVilla} autoPlay muted loop></video>
+        <video className='bgVideo' src={yashVilla} autoPlay muted loop playsinline></video>
       </main>
     </>
   )
