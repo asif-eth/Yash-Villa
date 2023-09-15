@@ -121,3 +121,10 @@
 .footerBottomLine_developerName:hover::before {
     transform: scaleX(1);
 }
+
+.footerBottomLineArrow {
+    width: 0.6rem;
+    display: inline;
+    margin: 0 0 0 0.2rem;
+    filter: invert(1);
+}
