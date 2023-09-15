@@ -21,9 +21,9 @@ const Hero = () => {
           {/* <p>Unlock Your Brand's Radiance</p> */}
         </div>
 
-        <video className="bgVideo" autoPlay loop muted playsInline preload='auto'>
-          <source src="/yashVilla.mp4" data-small="/public/yashVillacompressed.mp4" type="video/mp4" />
-          <source src="/yashVillah264.mp4" data-small="/public/yashVillacompressed.mp4" type="video/mp4" />
+        <video className="bgVideo" autoPlay loop muted playsInline preload='auto' data-small="/yashVillacompressed.mp4" >
+          <source src="/yashVilla.mp4" type="video/mp4" />
+          <source src="/yashVillah264.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
