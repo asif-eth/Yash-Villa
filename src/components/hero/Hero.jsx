@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css';
-import yashVilla from "../../assets/yashVilla.mp4"
+// import yashVilla from "../../assets/yashVilla.mp4"
+import bgVideo from "../../assets/bgVideo.mp4"
 import HomeIcon from '@mui/icons-material/Home';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
@@ -20,7 +21,7 @@ const Hero = () => {
           <h1>Yash Villa</h1>
           {/* <p>Unlock Your Brand's Radiance</p> */}
         </div>
-        <video className='bgVideo' src={yashVilla} autoPlay muted loop playsinline></video>
+        <video className='bgVideo' src={bgVideo} autoPlay muted loop playsinline></video>
       </main>
     </>
   )
