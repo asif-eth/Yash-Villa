@@ -10,12 +10,14 @@ const Hero = () => {
   return (
     <>
       <main className="bgContainer">
+        
         <div className="homeIcon">
           <HomeIcon style={{ fontSize: "3rem", color: "#FFFFFF" }} />
           <InstagramIcon style={{ fontSize: "3rem", color: "#FFFFFF" }} />
           <WhatsAppIcon style={{ fontSize: "3rem", color: "#FFFFFF" }} />
           <button className="enquireBtn">Enquire Now</button>
         </div>
+
         <div className="header">
           <h1>Yash Villa</h1>
         </div>

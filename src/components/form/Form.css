@@ -1,0 +1,21 @@
+
+.formContainer {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.formBody {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.formField {
+    margin: 0.5rem;
+}
+
+.btnWrapper {
+    margin: 0.5rem 0 0 0;
+}
