@@ -34,7 +34,14 @@
 
 .icon {
     height: 2rem;
+    width: 2rem;
 }
+.icon-whatsApp {
+    height: 2rem;
+    width: 9.5rem;
+}
+
+
 
 @media screen and (max-width: 1360px) {
     .footer_container{
@@ -124,6 +131,7 @@
 
 .footerBottomLineArrow {
     width: 0.6rem;
+    height: 0.8rem;
     display: inline;
     margin: 0 0 0 0.2rem;
     filter: invert(1);

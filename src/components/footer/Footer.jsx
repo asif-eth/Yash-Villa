@@ -34,7 +34,7 @@ const Footer = () => {
             </a>
             <a href="https://wa.me/7506480095" target="_blank">
               <img
-                className="icon"
+                className="icon-whatsApp"
                 src="/WhatsAppButtonGreenMedium.png"
                 alt="WhatsApp Logo"
               />
