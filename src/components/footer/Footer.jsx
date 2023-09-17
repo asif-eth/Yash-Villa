@@ -25,7 +25,7 @@ const Footer = () => {
                 alt="Instagram Logo"
               />
             </a>
-            <a href="" target="_blank">
+            <a href="https://www.facebook.com/" target="_blank">
               <img
                 className="icon"
                 src="/icons8-facebook.svg"
