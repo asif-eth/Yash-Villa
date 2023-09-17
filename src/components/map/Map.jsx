@@ -14,6 +14,7 @@ const Map = () => {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
+                title="Yash Villa Location Map"
                 ></iframe>
         </div>
     </>
