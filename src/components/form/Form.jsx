@@ -15,7 +15,7 @@ const Form = () => {
   return (
     <>
       <div className="formContainer">
-        <form action="https://formsubmit.co/6dda3bc45e4511c5fee86fba0cd283a8" method="POST" className="formBody" >
+        <form action="https://airform.io/silamimu@mailgolem.com" method="POST" className="formBody" >
           <TextField
             required
             name="Name"
