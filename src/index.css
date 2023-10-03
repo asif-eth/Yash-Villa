@@ -10,6 +10,7 @@
 
 @font-face {
   font-family: 'Hellix SemiBold';
-  src: url('/Hellix-SemiBold.ttf') format('truetype');
+  src: url('/public/fonts/Hellix-SemiBold.ttf') format('truetype');
+  font-weight: 700;
   font-style: normal;
 }
