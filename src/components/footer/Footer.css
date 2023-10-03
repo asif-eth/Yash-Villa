@@ -16,7 +16,8 @@
 }
 
 .footerLogo {
-    font-family: Poppins;
+    font-family: Hellix-SemiBold;
+    text-transform: uppercase;
     font-size: 2.5rem;
 }
 
