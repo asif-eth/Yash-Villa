@@ -7,10 +7,3 @@
 :root {
   --bg-color: rgb(244, 244, 244);
 }
-
-@font-face {
-  font-family: 'Hellix SemiBold';
-  src: url('/public/fonts/Hellix-SemiBold.ttf') format('truetype');
-  font-weight: 700;
-  font-style: normal;
-}
