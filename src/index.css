@@ -7,3 +7,19 @@
 :root {
   --bg-color: rgb(244, 244, 244);
 }
+
+@font-face {
+  font-family: 'Hellix SemiBold';
+  src: url('/Hellix-SemiBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: 'Futura-Bold';
+  src: url('/Futura-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: optional;
+}
