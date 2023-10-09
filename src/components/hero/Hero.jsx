@@ -1,34 +1,45 @@
-import React from 'react'
-import './Hero.css';
-// import yashVilla from "../../assets/yashVilla.mp4"
-import HomeIcon from '@mui/icons-material/Home';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import React from "react";
+import { gsap } from "gsap"
+import ScrollToPlugin from "gsap/ScrollToPlugin";
+import "./Hero.css";
 
 const Hero = () => {
+
+  gsap.registerPlugin(ScrollToPlugin);
+
+  const scrollToForm = () => {
+    gsap.to(window, {
+      duration: 1,
+      scrollTo: "#formComponent",
+      ease: "power2.inOut",
+    })
+  }
 
   return (
     <>
       <main className="bgContainer">
-        
-        <div className="homeIcon">
-          <HomeIcon style={{ fontSize: "3rem", color: "#FFFFFF" }} />
-          <InstagramIcon style={{ fontSize: "3rem", color: "#FFFFFF" }} />
-          <WhatsAppIcon style={{ fontSize: "3rem", color: "#FFFFFF" }} />
-          <button className="enquireBtn">Enquire Now</button>
-        </div>
 
         <div className="header">
           <h1>Yash Villa</h1>
         </div>
 
-        <video className="bgVideo" autoPlay loop muted playsInline preload='auto'>
+        <div className="homeIcon">
+          <button className="enquireBtn" onClick={scrollToForm}>Enquire Now</button>
+        </div>
+
+        <video
+          className="bgVideo"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+        >
           <source src="/yashVillaEnhanced.mp4" type="video/mp4" />
         </video>
-
       </main>
     </>
   );
-}
+};
 
-export default Hero
+export default Hero;

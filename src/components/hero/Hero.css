@@ -48,6 +48,7 @@
     padding: 2rem;
     width: 100%;
     left: 50%;
+    top: 80%;
     transform: translateX(-50%);
     display: flex;
     justify-content: space-around;
@@ -71,6 +72,7 @@
 }
 
 .enquireBtn {
+    position: relative;
     padding: 1em;
     border-radius: 1em;
     background-color: transparent;

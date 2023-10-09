@@ -37,7 +37,7 @@ const Form = () => {
           </div>
         </div>
 
-        <div className="rightBox">
+        <div id="formComponent" className="rightBox">
           <div className="formContainer">
             <h2>
               <span className="spanTxt">Your Details</span>
