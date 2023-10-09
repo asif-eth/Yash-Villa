@@ -51,8 +51,18 @@
 .amenities {
     list-style: none;
     font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.amenities li {
+.amenity {
     margin: 1rem 0 1rem 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.amenity img {
+    padding-left: 1rem;
 }

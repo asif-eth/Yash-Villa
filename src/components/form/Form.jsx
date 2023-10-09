@@ -25,13 +25,13 @@ const Form = () => {
             </h2>
             <div className="amenitiesBox">
               <ul className="amenities">
-                <li>WI-FI</li>
-                <li>Swimming Pool</li>
-                <li>Free Parking</li>
-                <li>Air Conditioning</li>
-                <li>Garden Area</li>
-                <li>Scenic Balconies</li>
-                <li>Outdoor Play Area</li>
+                <li className="amenity">WI-FI <img src="/wiFi.svg" alt="Wi-Fi Icon" /></li>
+                <li className="amenity">Swimming Pool <img src="/pool.svg" alt="Pool Icon" /></li>
+                <li className="amenity">Free Parking <img src="/parking.svg" alt="Parking Icon" /></li>
+                <li className="amenity">Air Conditioning <img src="/airConditioner.svg" alt="AC Icon" /></li>
+                <li className="amenity">Garden Area <img src="/gardenArea.svg" alt="Garden Icon" /></li>
+                <li className="amenity">Scenic Balconies <img src="/balcony.svg" alt="Balcony Icon" /></li>
+                <li className="amenity">Outdoor Play Area <img src="/personCelebrate.svg" alt="Play Area Icon" /></li>
               </ul>
             </div>
           </div>
