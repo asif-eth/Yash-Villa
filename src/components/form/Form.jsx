@@ -17,7 +17,6 @@ const Form = () => {
   return (
     <>
       <div className="mainContainer">
-
         <div className="leftBox">
           <div className="amenitiesContainer">
             <h2>
@@ -25,13 +24,29 @@ const Form = () => {
             </h2>
             <div className="amenitiesBox">
               <ul className="amenities">
-                <li className="amenity">WI-FI <img src="/wiFi.svg" alt="Wi-Fi Icon" /></li>
-                <li className="amenity">Swimming Pool <img src="/pool.svg" alt="Pool Icon" /></li>
-                <li className="amenity">Free Parking <img src="/parking.svg" alt="Parking Icon" /></li>
-                <li className="amenity">Air Conditioning <img src="/airConditioner.svg" alt="AC Icon" /></li>
-                <li className="amenity">Garden Area <img src="/gardenArea.svg" alt="Garden Icon" /></li>
-                <li className="amenity">Scenic Balconies <img src="/balcony.svg" alt="Balcony Icon" /></li>
-                <li className="amenity">Outdoor Play Area <img src="/personCelebrate.svg" alt="Play Area Icon" /></li>
+                <li className="amenity">
+                  WI-FI <img src="/wiFi.svg" alt="Wi-Fi Icon" />
+                </li>
+                <li className="amenity">
+                  Swimming Pool <img src="/pool.svg" alt="Pool Icon" />
+                </li>
+                <li className="amenity">
+                  Free Parking <img src="/parking.svg" alt="Parking Icon" />
+                </li>
+                <li className="amenity">
+                  Air Conditioning{" "}
+                  <img src="/airConditioner.svg" alt="AC Icon" />
+                </li>
+                <li className="amenity">
+                  Garden Area <img src="/gardenArea.svg" alt="Garden Icon" />
+                </li>
+                <li className="amenity">
+                  Scenic Balconies <img src="/balcony.svg" alt="Balcony Icon" />
+                </li>
+                <li className="amenity">
+                  Outdoor Play Area{" "}
+                  <img src="/personCelebrate.svg" alt="Play Area Icon" />
+                </li>
               </ul>
             </div>
           </div>
@@ -43,7 +58,7 @@ const Form = () => {
               <span className="spanTxt">Your Details</span>
             </h2>
             <form
-              action="https://airform.io/silamimu@mailgolem.com"
+              action="https://airform.io/yashvilla0095@gmail.com"
               method="POST"
               className="formBody"
             >
@@ -121,6 +136,21 @@ const Form = () => {
                     <option value="8">8</option>
                     <option value="9">9</option>
                     <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
                   </Select>
                 </Grid>
                 <Grid item xs={6}>
@@ -142,6 +172,11 @@ const Form = () => {
                     <option value="3">3</option>
                     <option value="4">4</option>
                     <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
                   </Select>
                 </Grid>
               </Grid>
